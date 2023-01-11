@@ -5,6 +5,9 @@ const path = require('path');
 // routes
 const indexRouter = require('./routes/index');
 
+// middleware for accepting form data
+app.use(express.urlencoded({ extended: true }));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
