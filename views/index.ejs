@@ -7,13 +7,15 @@
     <link rel='stylesheet' href='/css/style.css' />
 </head>
 <body>
-    <h1><%= title %></h1>
-    <a href="/new">Create new message</a>
-    
-    <% messages.forEach(function (message){ %>
-        <h2>From: <%= message.user %></h2>
-        <h3><%= message.text %></h3>
-        <small><%= message.added %></small>
-    <% }); %>
+    <div id="message-board">
+        <h1><%= title %></h1>
+        <a href="/new">Create new message</a>
+        
+        <% messages.forEach(function (message){ %>
+            <h2>From: <%= message.user %></h2>
+            <h3><%= message.text %></h3>
+            <small><%= message.added %></small>
+        <% }); %>
+    </div>
 </body>
 </html>
