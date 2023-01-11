@@ -22,7 +22,7 @@ router.get('/', function (req, res, next) {
 
 // GET new message form
 router.get('/new', function (req, res) {
-    res.render('form');
+    res.render('form', { title: "Mini message board" });
 });
 
 // POST new message
