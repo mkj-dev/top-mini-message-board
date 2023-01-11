@@ -1,0 +1,23 @@
+{
+  "name": "top-mini-message-board",
+  "version": "1.0.0",
+  "description": "Mini message board project made with Node.js/Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkj-dev/top-mini-message-board.git"
+  },
+  "author": "mkj-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkj-dev/top-mini-message-board/issues"
+  },
+  "homepage": "https://github.com/mkj-dev/top-mini-message-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
