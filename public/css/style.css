@@ -18,3 +18,31 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
+/* New message form */
+form {
+    max-width: 600px;
+    margin: 1.5em auto;
+    padding: .8em;
+}
+
+form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin: .5em 0;
+}
+
+#messageUser, #messageText {
+    width: 100%;
+}
+
+form button {
+    display: block;
+    margin: .5em 0;
+    padding: .5em .8em;
+}
