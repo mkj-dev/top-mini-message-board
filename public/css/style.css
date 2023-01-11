@@ -2,3 +2,19 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#message-board {
+    max-width: 600px;
+    margin: 1.5em auto;
+    padding: .8em;
+}
+
+#message-board h1 {
+    text-align: center;
+}
+
+#message-board a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
